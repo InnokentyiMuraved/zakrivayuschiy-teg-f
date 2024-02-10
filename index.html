@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
@@ -13,12 +14,12 @@
 		<link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
 		<link rel="icon" href="./svg/favicon.ico" sizes="any" />
 		<link rel="apple-touch-icon" href="./svg/favicon.png" />
+		<script src="./scripts/set-theme.js"></script>
 	</head>
-	<script src="./scripts/set-theme.js"></script>
 	<body class="page body">
 		<header class="header">
-			<a class="a">&lt;/HTML&gt;</a>
-			<h1 class="h1">Закрывающий тег</h1>
+			<a class="header__logo">&lt;/HTML&gt;</a>
+			<h1 class="header__title">Закрывающий тег</h1>
 			<nav class="theme-menu header__theme-menu">
 				<!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
 				<ul class="theme-menu__list">
@@ -53,13 +54,13 @@
 					</h2>
 
 					<div class="card__item_watermark-and-image">
-						<span class="card__item_watermark img1__watermark"
+						<span class="card__item_watermark img__watermark"
 							>&lt;/HTML&gt;</span
 						>
 						<img
-							class="card__item_image img1"
+							class="card__item_image img__mushroom"
 							src="./images/car.png"
-							alt="Мухамор фургон"
+							alt="Мухомор фургон"
 						/>
 					</div>
 					<div class="border_img">
@@ -68,9 +69,7 @@
 							основами и настроиться на учёбу. И, возможно, подумать, как новые
 							знания могут повлиять на ваше будущее.
 						</p>
-						<p class="card__item_text">
-							Было сложно.
-						</p>
+						<p class="card__item_text">Было сложно.</p>
 					</div>
 					<div class="buttons_wrapper">
 						<button class="card__icon-button">
@@ -119,7 +118,7 @@
 					<div class="card__item_watermark-and-image">
 						<span class="card__item_watermark">&lt;/HTML&gt;</span>
 						<img
-							class="card__item_image img2"
+							class="card__item_image img__night"
 							src="./images/car.png"
 							alt="Ночной фургон"
 						/>
@@ -132,8 +131,11 @@
 							за этим ощущением скрываются более глубокие вопросы: с чего
 							начать? а вдруг будет слишком сложно? что, если я не справлюсь?
 						</p>
-						<p class="card__item_text">Нужно искать и видеть чудеса, которых полно вокруг тебя. Ты умрешь от усталости, не интересуясь ничем, кроме себя
-            самого; от этой-то усталости ты глух и слеп ко всему остальному.</p>
+						<p class="card__item_text">
+							Нужно искать и видеть чудеса, которых полно вокруг тебя. Ты умрешь
+							от усталости, не интересуясь ничем, кроме себя самого; от этой-то
+							усталости ты глух и слеп ко всему остальному.
+						</p>
 					</div>
 					<div class="buttons_wrapper">
 						<button class="card__icon-button">
@@ -182,7 +184,7 @@
 					<div class="card__item_watermark-and-image">
 						<span class="card__item_watermark">&lt;CSS&gt;</span>
 						<img
-							class="card__item_image img3"
+							class="card__item_image img__retro"
 							src="./images/car.png"
 							alt="Ретро фургон"
 						/>
@@ -193,7 +195,10 @@
 							могла быстро померкнуть и смениться ожиданием провала. Или вы,
 							наоборот, могли вдохновиться успехами и поверить в себя.
 						</p>
-						<p class="card__item_text">Если тебе не нравится то, что ты получаешь, измени то, что ты даёшь.</p>
+						<p class="card__item_text">
+							Если тебе не нравится то, что ты получаешь, измени то, что ты
+							даёшь.
+						</p>
 					</div>
 					<div class="buttons_wrapper">
 						<button class="card__icon-button">
@@ -242,7 +247,7 @@
 					<div class="card__item_watermark-and-image">
 						<span class="card__item_watermark">&lt;desigions&gt;</span>
 						<img
-							class="card__item_image img4"
+							class="card__item_image img__brown"
 							src="./images/car.png"
 							alt="Коричневый фургон"
 						/>
@@ -255,7 +260,9 @@
 							подвержены перфекционизму и вместо того, чтобы сделать идеально,
 							старались просто сделать.
 						</p>
-						<p class="card__item_text">Намерение воина сильнее любых препятствий.</p>
+						<p class="card__item_text">
+							Намерение воина сильнее любых препятствий.
+						</p>
 					</div>
 					<div class="buttons_wrapper">
 						<button class="card__icon-button">
@@ -304,7 +311,7 @@
 					<div class="card__item_watermark-and-image">
 						<span class="card__item_watermark">&lt;care&gt;</span>
 						<img
-							class="card__item_image img5"
+							class="card__item_image img__green"
 							src="./images/car.png"
 							alt="Зеленный фургон"
 						/>
@@ -318,7 +325,9 @@
 							поддавался. Осваивать что-то новое легче, когда рядом есть
 							единомышленники, не правда ли?
 						</p>
-						<p class="card__item_text">Поступай так, словно это сон. Действуй смело и не ищи оправданий.</p>
+						<p class="card__item_text">
+							Поступай так, словно это сон. Действуй смело и не ищи оправданий.
+						</p>
 					</div>
 					<div class="buttons_wrapper">
 						<button class="card__icon-button">
@@ -367,7 +376,7 @@
 					<div class="card__item_watermark-and-image">
 						<span class="card__item_watermark">&lt;support&gt;</span>
 						<img
-							class="card__item_image img6"
+							class="card__item_image img__night_sky"
 							src="./images/car.png"
 							alt="Ночное небо и коричневый фургон"
 						/>
@@ -379,7 +388,8 @@
 							время посмотреть на задачу под другим углом.
 						</p>
 						<p class="card__item_text">
-              Ты сейчас не можешь многое понять из-за своей привычки думать так, как ты смотришь.
+							Ты сейчас не можешь многое понять из-за своей привычки думать так,
+							как ты смотришь.
 						</p>
 					</div>
 					<div class="buttons_wrapper">
@@ -429,7 +439,7 @@
 					<div class="card__item_watermark-and-image">
 						<span class="card__item_watermark">&lt;lifes-style: none;&gt;</span>
 						<img
-							class="card__item_image img7"
+							class="card__item_image img__blur"
 							src="./images/car.png"
 							alt="Заблюренный фургон"
 						/>
@@ -442,8 +452,11 @@
 							пожить. В такие моменты очень нужна концентрация. Вспомните,
 							откуда вы её черпали.
 						</p>
-						<p class="card__item_text">Человек живет только для того, чтобы учиться, а чему он учится — хорошему или плохому — зависит лишь от его природы и от
-            его судьбы.</p>
+						<p class="card__item_text">
+							Человек живет только для того, чтобы учиться, а чему он учится —
+							хорошему или плохому — зависит лишь от его природы и от его
+							судьбы.
+						</p>
 					</div>
 					<div class="buttons_wrapper">
 						<button class="card__icon-button">
@@ -492,7 +505,7 @@
 					<div class="card__item_watermark-and-image">
 						<span class="card__item_watermark">&lt;experience&gt;</span>
 						<img
-							class="card__item_image img8"
+							class="card__item_image img__garbage"
 							src="./images/car.png"
 							alt="Мусоровозка фургон"
 						/>
@@ -507,7 +520,8 @@
 							Ведь часто путь — и есть результат.
 						</p>
 						<p class="card__item_text">
-              Безупречность — это делать лучшее, что можешь, во всем, во что ты вовлечен.
+							Безупречность — это делать лучшее, что можешь, во всем, во что ты
+							вовлечен.
 						</p>
 					</div>
 					<div class="buttons_wrapper">
